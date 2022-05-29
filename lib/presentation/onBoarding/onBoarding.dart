@@ -53,7 +53,8 @@ class _OnBoardingViewState extends State<OnBoardingView> {
             color: ColorManager.white,
             height: AppSize.s100,
             child: Column(children: [
-              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () {}, child: (Text(AppStrings.skip, style: Theme.of(context).textTheme.subtitle2, textAlign: TextAlign.end))))
+              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () {}, child: Text(AppStrings.skip, style: Theme.of(context).textTheme.subtitle2, textAlign: TextAlign.end))),
+              _getBottomSheetWidget()
             ])));
   }
 
@@ -96,7 +97,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                 onTap: () {
                   _pageController.animateToPage(_getNextIndex(), duration: Duration(milliseconds: DurationConstant.d300), curve: Curves.bounceInOut);
                 }),
-          ),
+          )
         ]));
   }
 
