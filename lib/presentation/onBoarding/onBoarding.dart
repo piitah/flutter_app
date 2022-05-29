@@ -10,6 +10,6 @@ class OnBoardingView extends StatefulWidget {
 class _OnBoardingViewState extends State<OnBoardingView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: ColorManager.darkgrey, body: Center(child: Text("Welcome to On Boarding")));
+    return Scaffold(backgroundColor: ColorManager.white, body: Center(child: Text("Welcome to On Boarding")));
   }
 }
