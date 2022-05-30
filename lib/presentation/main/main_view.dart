@@ -8,10 +8,6 @@ class MainView extends StatefulWidget {
 class _MainViewState extends State<MainView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: ,
-      body: PageView.builder(itemBuilder: itemBuilder),
-      footer
-    );
+    return Scaffold();
   }
 }
