@@ -124,6 +124,12 @@ class _OnBoardingViewState extends State<OnBoardingView> {
       return SvgPicture.asset(ImageAssets.solidCircleIc);
     }
   }
+
+  @override
+  void dispose() {
+    // Viewmodel.Dispose;
+    super.dispose();
+  }
 }
 
 class OnBaordingPage extends StatelessWidget {
