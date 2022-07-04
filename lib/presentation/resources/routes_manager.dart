@@ -1,5 +1,4 @@
 import 'package:cleanarchitecture/presentation/onBoarding/onBoarding.dart';
-import 'package:cleanarchitecture/presentation/store_details/store_dts.dart';
 import 'package:flutter/material.dart';
 
 import '../forgot_password/forgot_password.dart';
@@ -7,6 +6,7 @@ import '../login/login.dart';
 import '../main/main_view.dart';
 import '../register/register.dart';
 import '../splash/splash.dart';
+import '../store_details/store_details.dart';
 import 'strings_manager.dart';
 
 class Routes {
